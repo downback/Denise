@@ -1,0 +1,59 @@
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  font-weight: 200;
+  width: 100vw;
+  margin: 150px 0;
+}
+
+.bio-container{
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 3;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .bio-container {
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .left {
+    margin-bottom: 30px;
+  }
+  .right {
+    width: 80vw;
+  }
+}
+
+.texts {
+  list-style: none;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.text a {
+  position: relative;
+  text-decoration: line;
+  color: black;
+}
+
+.text {
+  padding: 15px 0;
+}
+
+.text a:hover,
+.text a:active {
+  color: #7f7f7f;
+}

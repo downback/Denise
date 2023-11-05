@@ -1,0 +1,32 @@
+.sub-container {
+  display: flex;
+  margin: 12% auto 0 auto;
+}
+
+.image-area {
+  width: 30rem;
+  height: auto;
+  position: relative;
+  left: 30px;
+  animation: example 15s infinite;
+}
+
+@keyframes example {
+  0%{
+    transform: translateY(-100px);
+  }
+  50%{
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .image-area {
+    width: 20rem;
+    left: 0;
+    margin: 35% auto;
+  }
+}

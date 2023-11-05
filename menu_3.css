@@ -1,0 +1,42 @@
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.contact {
+  list-style: none;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 20%;
+  font-weight: 200;
+}
+
+@media only screen and (max-width: 768px) {
+main {
+  margin-top: 180px;
+}
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.instagram {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram:hover,
+.instagram:active {
+  font-weight: 400; 
+}
+
+.insta {
+  width: 32px;
+  margin-right: 10px;
+}
